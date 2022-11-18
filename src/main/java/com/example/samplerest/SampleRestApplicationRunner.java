@@ -1,6 +1,6 @@
 package com.example.samplerest;
 
-import com.example.samplerest.service.MyServiceImpl;
+import com.example.samplerest.service.PostServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -10,12 +10,11 @@ import org.springframework.stereotype.Component;
 public class SampleRestApplicationRunner implements ApplicationRunner {
 
     @Autowired
-    MyServiceImpl serviceImpl;
+    PostServiceImpl serviceImpl;
 
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        String response = serviceImpl.get("317807035");
-        System.out.println("############## I'm in with calculated response:" + response);
+        System.out.println("############## I'm in with calculated response:");
     }
 }

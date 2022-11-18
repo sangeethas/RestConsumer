@@ -1,8 +1,8 @@
-package com.example.samplerest.service;
+package com.example.samplerest.pojo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class PostStatus {
+public class Status {
 
 //     "status": {
 //        "timestamp": "2022-11-15T03:53:51.985Z",
@@ -31,4 +31,15 @@ public class PostStatus {
     @JsonProperty("notice")
     private String notice;
 
+    @Override
+    public String toString() {
+        return "PostStatus{" +
+                "timestamp='" + timestamp + '\'' +
+                ", errorCode=" + errorCode +
+                ", errorMessage='" + errorMessage + '\'' +
+                ", elapsed=" + elapsed +
+                ", creditCount=" + creditCount +
+                ", notice='" + notice + '\'' +
+                '}';
+    }
 }

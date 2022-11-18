@@ -1,4 +1,4 @@
-package com.example.samplerest.service;
+package com.example.samplerest.pojo.post;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -42,5 +42,17 @@ public class PostData {
     @JsonProperty("language_code")
     private String languageCode;
 
-
+    @Override
+    public String toString() {
+        return "PostData{" +
+                "postId='" + postId + '\'' +
+                ", owner=" + owner +
+                ", textContent='" + textContent + '\'' +
+                ", photos=" + photos +
+                ", commentCount='" + commentCount + '\'' +
+                ", likeCount='" + likeCount + '\'' +
+                ", postTime='" + postTime + '\'' +
+                ", languageCode='" + languageCode + '\'' +
+                '}';
+    }
 }
