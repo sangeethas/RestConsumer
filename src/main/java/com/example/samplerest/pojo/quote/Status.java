@@ -4,15 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Status {
 
-//     "status": {
-//        "timestamp": "2022-11-15T03:53:51.985Z",
-//                "error_code": 0,
-//                "error_message": null,
-//                "elapsed": 0,
-//                "credit_count": 0,
-//                "notice": null
-//    },
-
     @JsonProperty("timestamp")
     private String timestamp;
 

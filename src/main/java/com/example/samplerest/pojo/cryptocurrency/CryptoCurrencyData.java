@@ -6,16 +6,6 @@ import lombok.Getter;
 @Getter
 public class CryptoCurrencyData {
 
-//    "id": 208,
-//            "rank": 6071,
-//            "name": "a8vwz9v4ts",
-//            "symbol": "nzpgee7m9ib",
-//            "slug": "j479udq97ap",
-//            "is_active": 2841,
-//            "first_historical_data": "2022-11-17T21:49:55.681Z",
-//            "last_historical_data": "2022-11-17T21:49:55.681Z",
-//            "platform": null
-
     @JsonProperty("id")
     private String id;
 
