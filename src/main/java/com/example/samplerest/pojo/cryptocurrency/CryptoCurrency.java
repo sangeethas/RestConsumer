@@ -1,6 +1,6 @@
 package com.example.samplerest.pojo.cryptocurrency;
 
-import com.example.samplerest.pojo.Status;
+import com.example.samplerest.pojo.quote.Status;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;

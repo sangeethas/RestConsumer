@@ -1,4 +1,4 @@
-package com.example.samplerest.pojo;
+package com.example.samplerest.pojo.quote;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

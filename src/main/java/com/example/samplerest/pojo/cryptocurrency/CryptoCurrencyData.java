@@ -1,7 +1,9 @@
 package com.example.samplerest.pojo.cryptocurrency;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
 
+@Getter
 public class CryptoCurrencyData {
 
 //    "id": 208,
